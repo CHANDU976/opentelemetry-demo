@@ -1,5 +1,4 @@
 {
-  "$schema": "https://flagd.dev/schema/v0/flags.json",
   "flags": {
     "adFailure": {
       "defaultVariant": "off",
@@ -11,7 +10,7 @@
       }
     },
     "adHighCpu": {
-      "defaultVariant": "off",
+      "defaultVariant": "on",
       "description": "Triggers high cpu load in the ad service",
       "state": "ENABLED",
       "variants": {
